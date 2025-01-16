@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.header-container {
+    display: inline-flex;
+    height: 992px;
+    padding: 12px 28px 708px 28px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    background-color: #E7EEFF;
+}
+
+.solod {
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #002B81;
+
+}
+
+.logo {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.big-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infut1 {
+    border: none;
+    background: #E7EEFF;
+    width: 244px;
+    height: 35px;
+}
+
+
+header {
+    padding-top: 20px;
+    background: #E7EEFF;
+    height: 80px;
+
+}
+
+.simmons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.homes {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 42px 96px;
+}
+
+.Madrid {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 24px 8px 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+
+.guest {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.main-big-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+    margin-top: 42px;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: center;
+}
+
+.Alley {
+    display: flex;
+    background: #E7EEFF;
+    border-radius: 0px 0px 24px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-top-right-radius: 8%;
+    border-top-left-radius: 8%;
+    max-width: 353px;
+    width: 100%;
+}
+
+.Alley img {
+    width: 100%;
+}
+
+.box-box {
+    padding: 8px 12px;
+}
+
+
+
+.Tropic {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.Southwood {
+    color: #606060;
+    font-family: Inter;
+    font-size: 14px;
+}
